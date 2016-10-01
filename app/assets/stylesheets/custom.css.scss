@@ -19,7 +19,21 @@
 }
 
 .nav.navbar-right li {
-  margin-top: -32px;
+  .btn{
+    color: #fff !important;
+    margin-top: 5%;
+  }
+  .btn-danger:hover{
+    background-color: darken(#d9534f, 20%) !important;
+  }
+}
+
+@media (max-width: 768px) { 
+  .user-name{
+    padding-top: 0px;
+    text-align: center;
+  }
+
   .btn{
     color: #fff !important;
     margin-top: 5%;
